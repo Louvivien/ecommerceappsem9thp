@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+3.times do |item|
+    myItems = Item.create!(title: Faker::Artist.name, description: "description du produit", 
+    price: Faker::Commerce.price, image_url: Faker::Avatar.image("my-own-slug") )
+
+end
