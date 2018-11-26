@@ -15,6 +15,6 @@ class Item < ApplicationRecord
     message: "L'image doit être renseigné."
   }
 
-  has_many :cart
-  has_many :order
+  has_many :carts
+  has_many :orders
 end
