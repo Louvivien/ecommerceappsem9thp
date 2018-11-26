@@ -8,11 +8,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
-<<<<<<< HEAD
 
-
-=======
->>>>>>> parent of f0d9606... ajout systeme login logout signup
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
